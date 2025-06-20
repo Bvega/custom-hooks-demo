@@ -19,7 +19,7 @@ export function WindowSizeDisplay() {
         🪟 Window Size Tracker
       </h2>
       <div style={{ fontSize: '18px', marginBottom: '10px' }}>
-        <strong>Width:</strong> 
+        <strong style={{color: '#333'}}>Width:</strong> 
         <span style={{ 
           color: '#007acc', 
           fontFamily: 'monospace',
@@ -30,7 +30,7 @@ export function WindowSizeDisplay() {
         </span>
       </div>
       <div style={{ fontSize: '18px', marginBottom: '15px' }}>
-        <strong>Height:</strong> 
+        <strong style={{color: '#333'}}>Height:</strong> 
         <span style={{ 
           color: '#007acc', 
           fontFamily: 'monospace',
