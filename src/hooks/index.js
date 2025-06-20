@@ -2,3 +2,4 @@
 export { useWindowSize } from './useWindowSize';
 export { useLocalStorage } from './useLocalStorage';
 export { useFetch } from './useFetch';
+export { useForm } from './useForm';
