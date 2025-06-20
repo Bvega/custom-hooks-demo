@@ -1,7 +1,7 @@
 import React from 'react';
 import { WindowSizeDisplay } from './components/WindowSizeDisplay';
 import { ThemeSelector } from './components/ThemeSelector';
-import './App.css';
+import { UserList } from './components/UserList';
 
 function App() {
   return (
@@ -22,12 +22,13 @@ function App() {
           color: '#666',
           fontSize: '1.1rem'
         }}>
-          Testing useWindowSize and useLocalStorage hooks
+          Testing useWindowSize, useLocalStorage, and useFetch hooks
         </p>
       </div>
       
       <WindowSizeDisplay />
       <ThemeSelector />
+      <UserList />
     </div>
   );
 }
